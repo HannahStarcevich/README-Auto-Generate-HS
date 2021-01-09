@@ -1,2 +1,27 @@
-# README-Auto-Generate-HS
-This application utilizes JavaScript and Node.JS to generate professional README documents directly from the command line.
+# dogs 
+
+        Badges (https://shields.io/)
+        
+    ## Description
+        it is all about dogs 
+        yes 
+        yes 
+
+    ## Table of Contents
+        * [Installation](#installation)
+        * [Usage](#usage)
+        * [Contributing](#contributing)
+        * [License](#license)
+        
+    ## Installation
+        no
+
+    ## Usage
+        yes 
+        
+    ## Contributing
+        yes 
+
+    ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+        undefined
