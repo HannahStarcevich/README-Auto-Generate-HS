@@ -1,11 +1,11 @@
-# cats 
+# Auto Generate README File 
 
 Badges (https://shields.io/)
         
 ## Description
-hannah 
-hannah 
-hannah 
+Dynamically create a README file with predetermined questions to ensure you don't miss any vital information. Formatting is included to make it easy to read.  
+https://hannahstarcevich.github.io/README-Auto-Generate-HS/ 
+https://github.com/HannahStarcevich/README-Auto-Generate-HS 
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,14 +14,13 @@ hannah
 * [License](#license)
         
 ## Installation
-hannah
+Clone the GitHub Repo and then open the node.js in the terminal. Answer the prompt questions and the README will be generated.
 
 ## Usage
-hannah
+Use this app for clear and well-structured READMEs
         
 ## Contributing
-hannah
+HannahStarcevich
 
 ## License
 [MIT](#https://choosealicense.com/licenses/mit/)
-undefined

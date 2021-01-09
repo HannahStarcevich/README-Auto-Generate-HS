@@ -63,7 +63,7 @@ ${data.installation}
 ${data.usage}
         
 ## Contributing
-${data.usage}
+${data.contributors}
 
 ## License
 [MIT](#https://choosealicense.com/licenses/mit/)`
