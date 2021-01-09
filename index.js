@@ -1,7 +1,5 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const util = require("util");
-const readmeAsync = util.promisify(fs.writeFile)
 
 inquirer
     .prompt([{
@@ -38,11 +36,6 @@ inquirer
             type: 'input',
             name: 'contributors',
             message: 'Who participated on this project? What is their GitHub username?',
-        },
-        {
-            type: 'input',
-            name: 'license',
-            message: 'Add licenses other than MIT?',
         }
     ])
     .then((data) => {
@@ -50,31 +43,30 @@ inquirer
 
         const template = `# ${data.title} 
 
-        Badges (https://shields.io/)
+Badges (https://shields.io/)
         
-    ## Description
-        ${data.description} 
-        ${data.liveLink} 
-        ${data.gitHubLink} 
+## Description
+${data.description} 
+${data.liveLink} 
+${data.gitHubLink} 
 
-    ## Table of Contents
-        * [Installation](#installation)
-        * [Usage](#usage)
-        * [Contributing](#contributing)
-        * [License](#license)
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [License](#license)
         
-    ## Installation
-        ${data.installation}
+## Installation
+${data.installation}
 
-    ## Usage
-        ${data.usage}
+## Usage
+${data.usage}
         
-    ## Contributing
-        ${data.usage}
+## Contributing
+${data.usage}
 
-    ## License
-        [MIT](https://choosealicense.com/licenses/mit/)
-        ${data.licenses}`
+## License
+[MIT](#https://choosealicense.com/licenses/mit/)`
 
         fs.writeFile(filename, (template), (err) =>
             err ? console.log(err) : console.log('Success!')
